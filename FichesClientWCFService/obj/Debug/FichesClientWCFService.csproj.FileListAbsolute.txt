@@ -1,0 +1,10 @@
+J:\ProjetVS\MaPremiereApplicationConnectee\FichesClientWCFService\obj\Debug\FichesClientWCFService.csprojResolveAssemblyReference.cache
+J:\ProjetVS\MaPremiereApplicationConnectee\FichesClientWCFService\bin\FichesClientWCFService.dll.config
+J:\ProjetVS\MaPremiereApplicationConnectee\FichesClientWCFService\bin\FichesClientWCFService.dll
+J:\ProjetVS\MaPremiereApplicationConnectee\FichesClientWCFService\bin\FichesClientWCFService.pdb
+J:\ProjetVS\MaPremiereApplicationConnectee\FichesClientWCFService\bin\EntityFramework.dll
+J:\ProjetVS\MaPremiereApplicationConnectee\FichesClientWCFService\bin\EntityFramework.SqlServer.dll
+J:\ProjetVS\MaPremiereApplicationConnectee\FichesClientWCFService\bin\EntityFramework.xml
+J:\ProjetVS\MaPremiereApplicationConnectee\FichesClientWCFService\bin\EntityFramework.SqlServer.xml
+J:\ProjetVS\MaPremiereApplicationConnectee\FichesClientWCFService\obj\Debug\FichesClientWCFService.dll
+J:\ProjetVS\MaPremiereApplicationConnectee\FichesClientWCFService\obj\Debug\FichesClientWCFService.pdb

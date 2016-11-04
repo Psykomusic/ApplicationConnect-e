@@ -1,0 +1,6 @@
+J:\ProjetVS\MaPremiereApplicationConnectee\GestionFicheClient\bin\Debug\GestionFicheClient.exe.config
+J:\ProjetVS\MaPremiereApplicationConnectee\GestionFicheClient\obj\Debug\GestionFichesClients.csprojResolveAssemblyReference.cache
+J:\ProjetVS\MaPremiereApplicationConnectee\GestionFicheClient\obj\Debug\MainWindow.g.cs
+J:\ProjetVS\MaPremiereApplicationConnectee\GestionFicheClient\obj\Debug\App.g.cs
+J:\ProjetVS\MaPremiereApplicationConnectee\GestionFicheClient\obj\Debug\GestionFicheClient_MarkupCompile.cache
+J:\ProjetVS\MaPremiereApplicationConnectee\GestionFicheClient\obj\Debug\GestionFicheClient_MarkupCompile.lref
