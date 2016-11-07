@@ -59,7 +59,22 @@
     </ApplicationDefinition>
     <Compile Include="FichesClientsVM.cs" />
     <Compile Include="RelayCommand.cs" />
+    <Compile Include="Service References\FichesClientsServiceLocal\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Service References\FichesClientsService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceReference\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -100,6 +115,19 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
+    <None Include="Service References\FichesClientsServiceLocal\FichesClientsService.wsdl" />
+    <None Include="Service References\FichesClientsServiceLocal\FichesClientsService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FichesClientsServiceLocal\FichesClientsService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FichesClientsServiceLocal\FichesClientsService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FichesClientsServiceLocal\GestionFichesClients.FichesClientsServiceLocal.FicheClient.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\FichesClientsService\FichesClientsService.wsdl" />
     <None Include="Service References\FichesClientsService\FichesClientsService.xsd">
       <SubType>Designer</SubType>
@@ -113,15 +141,46 @@
     <None Include="Service References\FichesClientsService\GestionFichesClients.FichesClientsService.FicheClient.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Service References\ServiceReference1\FichesClientsService.wsdl" />
+    <None Include="Service References\ServiceReference1\FichesClientsService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\FichesClientsService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\FichesClientsService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\GestionFichesClients.ServiceReference1.FicheClient.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference\FichesClientsService.wsdl" />
+    <None Include="Service References\ServiceReference\FichesClientsService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference\FichesClientsService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference\FichesClientsService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference\GestionFichesClients.ServiceReference.FicheClient.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Service References\FichesClientsServiceLocal\" />
     <WCFMetadataStorage Include="Service References\FichesClientsService\" />
+    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
+    <WCFMetadataStorage Include="Service References\ServiceReference\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\FichesClientsService\FichesClientsService.disco" />
@@ -134,6 +193,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\FichesClientsService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\FichesClientsService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference\FichesClientsService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FichesClientsServiceLocal\FichesClientsService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FichesClientsServiceLocal\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FichesClientsServiceLocal\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FichesClientsServiceLocal\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

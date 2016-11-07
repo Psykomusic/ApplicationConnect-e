@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c86c4db0-61ef-46cf-9fb4-889d8b2b1f14" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://127.0.0.1/FichesClientsService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FichesClientsService.xsd" MetadataType="Schema" ID="b52a23c2-f2d1-471b-8946-6283b03c15e8" SourceId="1" SourceUrl="http://127.0.0.1/FichesClientsService.svc?xsd=xsd0" />
+    <MetadataFile FileName="FichesClientsService1.xsd" MetadataType="Schema" ID="98eef21a-08c5-4638-b6dd-6194ef4f88d6" SourceId="1" SourceUrl="http://127.0.0.1/FichesClientsService.svc?xsd=xsd2" />
+    <MetadataFile FileName="FichesClientsService.disco" MetadataType="Disco" ID="d44dcfd5-a229-4cbf-9246-c4d5fdc7f8dc" SourceId="1" SourceUrl="http://127.0.0.1/FichesClientsService.svc?disco" />
+    <MetadataFile FileName="FichesClientsService.wsdl" MetadataType="Wsdl" ID="e1fca0ee-5f8a-42fd-ab53-68d0cf25b36e" SourceId="1" SourceUrl="http://127.0.0.1/FichesClientsService.svc?wsdl" />
+    <MetadataFile FileName="FichesClientsService2.xsd" MetadataType="Schema" ID="85d88575-0688-47c6-b110-1e4e17bb00fa" SourceId="1" SourceUrl="http://127.0.0.1/FichesClientsService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

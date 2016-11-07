@@ -134,7 +134,9 @@ namespace GestionFichesClients
 
         public FichesClientsVM()
         {
-            FichesClientServiceClient client = new FichesClientServiceClient();
+          //  var remoteAddress = new System.ServiceModel.EndpointAddress("http://127.0.0.1/FichesClientsService.svc");
+            
+            FichesClientServiceClient client = new FichesClientServiceClient();                                                                      // client.Endpoint.Binding.SendTimeout = new TimeSpan(100, 100, 100);
             ListeDeFichesClients = new ObservableCollection<FicheClient>(client.GetFiches());
             client.Close();
         }

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Window.DataContext>
-        <local:FichesClientsVM></local:FichesClientsVM>
+        <local:FichesClientsVM />
     </Window.DataContext>
     <Grid>
         <Grid.Resources>
