@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="60e65621-18b0-4469-a26d-dcdc6c04aa18" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="35f787fa-abd5-463e-9ccb-27461ae3c223" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,14 +19,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:59561/FichesClientsService.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://127.0.0.1/FichesClientsService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="FichesClientsService.disco" MetadataType="Disco" ID="9712cc25-ec65-4a0a-ac31-406652458fea" SourceId="1" SourceUrl="http://localhost:59561/FichesClientsService.svc?disco" />
-    <MetadataFile FileName="FichesClientsService.xsd" MetadataType="Schema" ID="c7af5760-4c69-4300-9e89-9c2b79948e67" SourceId="1" SourceUrl="http://localhost:59561/FichesClientsService.svc?xsd=xsd1" />
-    <MetadataFile FileName="FichesClientsService1.xsd" MetadataType="Schema" ID="a312760a-f7de-407d-82d6-102b62888b23" SourceId="1" SourceUrl="http://localhost:59561/FichesClientsService.svc?xsd=xsd0" />
-    <MetadataFile FileName="FichesClientsService.wsdl" MetadataType="Wsdl" ID="eb9e2584-1f04-4554-93c0-f28820d4982d" SourceId="1" SourceUrl="http://localhost:59561/FichesClientsService.svc?wsdl" />
-    <MetadataFile FileName="FichesClientsService2.xsd" MetadataType="Schema" ID="de2e923e-fa36-46fe-9a8f-5b8476002825" SourceId="1" SourceUrl="http://localhost:59561/FichesClientsService.svc?xsd=xsd2" />
+    <MetadataFile FileName="FichesClientsService.xsd" MetadataType="Schema" ID="271155f1-5b92-4d35-95d6-d3df48a2806c" SourceId="1" SourceUrl="http://127.0.0.1/FichesClientsService.svc?xsd=xsd0" />
+    <MetadataFile FileName="FichesClientsService1.xsd" MetadataType="Schema" ID="4aeec613-d9e1-4a21-b3c7-13f8335c53c0" SourceId="1" SourceUrl="http://127.0.0.1/FichesClientsService.svc?xsd=xsd2" />
+    <MetadataFile FileName="FichesClientsService.disco" MetadataType="Disco" ID="36b73f04-e1da-453e-85aa-4be1ee86539a" SourceId="1" SourceUrl="http://127.0.0.1/FichesClientsService.svc?disco" />
+    <MetadataFile FileName="FichesClientsService.wsdl" MetadataType="Wsdl" ID="681e010b-fa60-4f7a-88d6-84922e8922f2" SourceId="1" SourceUrl="http://127.0.0.1/FichesClientsService.svc?wsdl" />
+    <MetadataFile FileName="FichesClientsService2.xsd" MetadataType="Schema" ID="2e2c784e-4179-43af-a34e-3c98a9f8e2b2" SourceId="1" SourceUrl="http://127.0.0.1/FichesClientsService.svc?xsd=xsd1" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
